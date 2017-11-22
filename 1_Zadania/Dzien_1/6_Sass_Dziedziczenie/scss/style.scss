@@ -1,0 +1,58 @@
+//zadanie 0
+section.test-mixin {
+  background: red;
+  @extend %clearfix;
+
+  div {
+    float: left;
+    width: 49%;
+
+    &.left_box {
+      border-right: 1px solid black;
+    }
+  }
+}
+%clearfix {
+  &:after {
+    content:"";
+    display: table;
+    clear: both;
+  }
+}
+//zadanie 1
+%red {
+  color: red;
+}
+a {
+  @extend %red;
+
+&:hover {
+  color: #333;
+  text-decoration: underline;
+  }
+}
+.error {
+  @extend %red;
+  border-color: red;
+}
+//zadanie 2
+%box {
+  height: 100px;
+  width: 200px;
+  border: 1px solid black;
+  font-family: Arial;
+  font-size: 20px;
+}
+.success {
+  @extend %box;
+  background: yellow;
+  border-color: yellow;
+}
+.error {
+  @extend %box;
+  background: green;
+}
+.info {
+  @extend %box;
+  background: red;
+}

@@ -1,0 +1,30 @@
+// body {
+//   background: blue;
+//
+//   @media (max-width: 420px) {
+//     background: yellow;
+//   }
+// }
+
+
+body {
+  background: yellow;
+
+  @media (min-width: 420px) {
+    background: blue;
+  }
+}
+
+//zadanie 2
+@mixin test {
+  @media (max-width: 400px){
+
+  @content;
+}
+}
+body {
+  @include test {
+    color: red;
+    background: blue;
+  }
+}

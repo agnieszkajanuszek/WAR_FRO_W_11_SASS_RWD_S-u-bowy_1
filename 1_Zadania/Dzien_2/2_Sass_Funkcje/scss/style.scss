@@ -1,0 +1,20 @@
+$prim-color: black;
+$sec-color: lighten($prim-color, 50%);
+p {
+color: $sec-color;
+background: $prim-color;
+}
+
+@for $i from 1 through 4 {
+
+  h#{$i} {
+    color: lighten($prim-color, ($i - 1)*15%);
+  }
+}
+//zadanie 3
+@function sum ($a, $b){
+  @return $a+$b;
+}
+p {
+  width: sum()
+}

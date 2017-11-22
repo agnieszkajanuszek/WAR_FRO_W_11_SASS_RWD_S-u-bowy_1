@@ -1,0 +1,31 @@
+$fontSize: 10px;
+h1 {
+  font-size: $fontSize*5
+}
+h2{
+  font-size: $fontSize*4
+}
+h3 {
+  font-size: $fontSize*3
+}
+h4 {
+  font-size: $fontSize*2
+}
+//pętla
+@for $i from 1 through 4 {
+
+  h#{$i} {
+    font-size: $fontSize*(5-$i);
+  }
+}
+$timeOfDay: midday;
+@mixin bg {
+  @if $timeOfDay==morning {
+  background: orange;
+} @else if $timeOfDay==midday {
+  background: yellow;
+}
+}
+body {
+  @include bg;
+}

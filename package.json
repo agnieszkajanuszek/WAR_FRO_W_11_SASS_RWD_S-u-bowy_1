@@ -1,0 +1,19 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agnieszkajanuszek/WAR_FRO_W_11_SASS_RWD.git"
+  },
+  "author": "AJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agnieszkajanuszek/WAR_FRO_W_11_SASS_RWD/issues"
+  },
+  "homepage": "https://github.com/agnieszkajanuszek/WAR_FRO_W_11_SASS_RWD#readme"
+}

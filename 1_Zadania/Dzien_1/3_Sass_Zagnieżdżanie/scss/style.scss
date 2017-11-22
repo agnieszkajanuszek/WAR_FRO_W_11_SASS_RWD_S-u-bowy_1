@@ -1,0 +1,10 @@
+.main-width {
+  ul {
+    li{
+      color:green;
+      &:first-child{
+        color: red;
+      }
+    }
+  }
+}

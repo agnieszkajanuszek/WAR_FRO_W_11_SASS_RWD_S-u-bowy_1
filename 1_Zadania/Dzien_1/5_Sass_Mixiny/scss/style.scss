@@ -1,0 +1,22 @@
+
+@mixin test-mixin($test) {
+  color: $test;
+}
+@mixin clearfix {
+  &:after {
+    content:"";
+    display: table;
+    clear: both;
+  }
+}
+section.test-mixin {
+  @include test-mixin(blue);
+
+@include clearfix;
+  .left_box,
+  .right_box {
+    float: left;;
+    width: 200px;
+
+  }
+}

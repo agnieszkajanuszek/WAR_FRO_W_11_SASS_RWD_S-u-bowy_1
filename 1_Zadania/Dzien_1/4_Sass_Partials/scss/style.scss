@@ -1,0 +1,13 @@
+@import "modules/all.scss";
+
+.main-width {
+  color: blue; 
+  ul {
+    li{
+      color:green;
+      &:first-child{
+        color: red;
+      }
+    }
+  }
+}

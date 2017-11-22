@@ -1,0 +1,9 @@
+.main-width ul li {
+  color: green;
+}
+
+.main-width ul li:first-child {
+  color: red;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlcyI6WyJzdHlsZS5zY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIi5tYWluLXdpZHRoIHtcbiAgdWwge1xuICAgIGxpe1xuICAgICAgY29sb3I6Z3JlZW47XG4gICAgICAmOmZpcnN0LWNoaWxke1xuICAgICAgICBjb2xvcjogcmVkO1xuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLEFBRUksV0FGTyxDQUNULEVBQUUsQ0FDQSxFQUFFLENBQUE7RUFDQSxLQUFLLEVBQUMsS0FBSztDQUlaOztBQVBMLEFBRUksV0FGTyxDQUNULEVBQUUsQ0FDQSxFQUFFLEFBRUEsWUFBYSxDQUFBO0VBQ1gsS0FBSyxFQUFFLEdBQUc7Q0FDWCJ9 */
